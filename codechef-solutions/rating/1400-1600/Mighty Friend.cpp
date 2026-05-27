@@ -43,7 +43,7 @@ int main() {
 				}
 			}
 
-			int temp = A[motuMaxIdx];
+			int temp = A[tomuMinIdx];
 			A[tomuMinIdx] = A[motuMaxIdx];
 			A[motuMaxIdx] = temp;
 		}
